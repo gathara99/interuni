@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Inter-Uni</title>
+		<link rel="stylesheet" href="/css/materialize.min.css" />
+	</head>
+
+	<body>
+		<nav class="blue">
+			<div class="nav-wrapper">
+				<a href="/" class="brand-logo">Inter-Uni</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="login.html">Login</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container white">
+			<div class="row">
+				<div class="col s5">
+					<h3>Login</h3>
+					<div class="row">
+						<form class="col s12">
+							<div class="row">
+								<div class="input-field col s12">
+									<input
+										id="login-email"
+										type="email"
+										class="validate"
+									/>
+									<label for="email">Email</label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="input-field col s12">
+									<input
+										id="login-password"
+										type="password"
+										class="validate"
+									/>
+									<label for="password">Password</label>
+								</div>
+							</div>
+							<button
+								id="login-btn"
+								type="button"
+								class="waves-effect waves-light btn"
+							>
+								Login
+							</button>
+						</form>
+					</div>
+				</div>
+				<div class="col s5 offset-s2">
+					<h3>Register</h3>
+					<div class="row">
+						<form class="col s12">
+							<div class="row">
+								<div class="input-field col s6">
+									<input
+										id="first_name"
+										type="text"
+										class="validate"
+									/>
+									<label for="first_name">First Name</label>
+								</div>
+								<div class="input-field col s6">
+									<input
+										id="last_name"
+										type="text"
+										class="validate"
+									/>
+									<label for="last_name">Last Name</label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="input-field col s12">
+									<input
+										id="reg_no"
+										type="text"
+										class="validate"
+									/>
+									<label for="reg_no"
+										>Registration Number</label
+									>
+								</div>
+							</div>
+							<div class="row">
+								<div class="input-field col s12">
+									<input
+										id="university"
+										type="text"
+										class="validate"
+									/>
+									<label for="reg_no">University</label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="input-field col s12">
+									<input
+										id="course"
+										type="text"
+										class="validate"
+									/>
+									<label for="reg_no">Course</label>
+								</div>
+							</div>
+							<!-- <div class="input-field col s12">
+								<select id="university">
+									<option value="" disabled selected
+										>Choose your university</option
+									>
+									<option
+										value="Dedan Kimathi University of Technology"
+										>Dedan Kimathi University of
+										Technology</option
+									>
+									<option value="Karatina University"
+										>Karatina University</option
+									>
+								</select>
+								<label>University</label>
+							</div>
+							<div class="input-field col s12">
+								<select id="course">
+									<option value="" disabled selected>
+										Choose your course
+									</option>
+									<option value="Course 1">Course 1</option>
+									<option value="Course 2">Course 2</option>
+									<option value="Course 3">Course 3</option>
+								</select>
+								<label>Course</label>
+							</div> -->
+							<div class="row">
+								<div class="input-field col s12">
+									<input
+										id="email"
+										type="email"
+										class="validate"
+									/>
+									<label for="email">Email</label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="input-field col s12">
+									<input
+										id="password"
+										type="password"
+										class="validate"
+									/>
+									<label for="password">Password</label>
+								</div>
+							</div>
+							<button
+								id="register-btn"
+								type="button"
+								class="waves-effect waves-light btn"
+							>
+								Register
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Compiled and minified JavaScript -->
+		<script src="/js/materialize.min.js"></script>
+		<script src="/js/axios.min.js"></script>
+		<script src="/js/index.js"></script>
+	</body>
+</html>
